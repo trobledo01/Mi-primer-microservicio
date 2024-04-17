@@ -8,8 +8,8 @@ import java.util.List;
 
 @Service
 public class AlumnoServiceimpl implements AlumnoService{
-    List<alumno> alumnoList = new ArrayList<>();
-    alumno alumno1 ;
+    public List<alumno> alumnoList = new ArrayList<>();
+
     @Override
     public List <alumno> getAlumnoList() {
         return alumnoList;
@@ -23,6 +23,21 @@ public class AlumnoServiceimpl implements AlumnoService{
 
     @Override
     public alumno getAlumnobyId(int id) {
-        return alumnoList.get(id);
+
+        return alumnoList.get((id));
     }
+
+    @Override
+    public void updateAlumno(int id, alumno alumnoActualizado) {
+        alumnoList.set(id,alumnoActualizado);
+
+    }
+
+    @Override
+    public void deleteAlumbyId(int id) {
+        alumnoList.remove(id);
+
+    }
+
+
 }

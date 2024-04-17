@@ -12,5 +12,9 @@ public interface AlumnoService {
 
     alumno getAlumnobyId(int id);
 
+    public void updateAlumno(int id, alumno alumnoActualizado);
+
+    public void deleteAlumbyId(int id);
+
 
 }

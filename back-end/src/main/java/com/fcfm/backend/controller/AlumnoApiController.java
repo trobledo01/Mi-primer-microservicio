@@ -10,12 +10,18 @@ import java.util.List;
 public interface AlumnoApiController {
     @GetMapping("/")
     ResponseEntity<List<alumno>> getAlumnoList();
-
-
+    @GetMapping("/2/{}")
+    ResponseEntity <String> prueba(@PathVariable int id);
 
     @GetMapping("/{idAlumno}")
-    ResponseEntity<alumno> getAlumnobyId(@PathVariable int id);
+    ResponseEntity<alumno> getAlumnobyId(@PathVariable int idAlumno);
 
     @PostMapping("/")
     ResponseEntity<alumno> createAlumno(@RequestBody alumno alumnonuevo);
+
+    @PutMapping ("g/{idAlumno}")
+    ResponseEntity<List<alumno>> updateAlumno(@PathVariable int idAlumno, @RequestBody alumno alumnoActualizado);
+
+    @DeleteMapping ("g/{idAlumno}")
+    ResponseEntity<List<alumno>> deleteAlumnobyId(@PathVariable int idAlumno);
 }
