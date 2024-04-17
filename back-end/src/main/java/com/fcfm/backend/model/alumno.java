@@ -1,6 +1,13 @@
 package com.fcfm.backend.model;
 
 public class alumno {
+    private String nombre;
+    private String apellidoPat;
+    private String apellidoMat;
+    private Integer edad;
+    private String telefono;
+    private String email;
+
     public String getNombre() {
         return nombre;
     }
@@ -33,9 +40,19 @@ public class alumno {
         this.edad = edad;
     }
 
-    private String nombre;
-    private String apellidoPat;
-    private String apellidoMat;
+    public String getTelefono() {
+        return telefono;
+    }
 
-    private Integer edad;
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }
