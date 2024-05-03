@@ -4,6 +4,7 @@ import com.fcfm.backend.controller.AlumnoApiController;
 import com.fcfm.backend.model.alumno;
 import com.fcfm.backend.service.AlumnoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -30,8 +31,9 @@ public class AlumnoApiControllerimpl  implements AlumnoApiController {
 
 
 
+
     @Override
-    public ResponseEntity<alumno> getAlumnobyId(@PathVariable int id) {
+    public ResponseEntity<alumno> getAlumnobyId(@PathVariable Long id) {
         return ResponseEntity.ok().body(alumnoService.getAlumnobyId(id));
     }
 
@@ -40,4 +42,18 @@ public class AlumnoApiControllerimpl  implements AlumnoApiController {
         alumnoService.createAlumno(alumnonuevo);
         return ResponseEntity.ok().body(alumnonuevo);
     }
+
+    @Override
+    public ResponseEntity<alumno> updateAlumno(alumno alumnonuevo) {
+        alumnoService.updateAlumno(alumnonuevo);
+        return ResponseEntity.ok().body(alumnonuevo);
+    }
+
+    @Override
+    public ResponseEntity deleteAlumnobyId(int idAlumno) {
+        alumnoService.deleteAlumno((long) idAlumno);
+        return ResponseEntity.ok().body("");
+    }
+
+
 }
