@@ -30,7 +30,7 @@ public class AlumnoServiceimpl implements AlumnoService{
         alumno.setEmail(alumNu.getEmail());
         alumno.setFechaNac(alumNu.getFechaNac());
 
-        alumnoRepository.insertar(AlumnoMapper.alumnoModeltoEntity(alumNu));
+        alumnoRepository.insertar(alumno);
     }
 
     @Override

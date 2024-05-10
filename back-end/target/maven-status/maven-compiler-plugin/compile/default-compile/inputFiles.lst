@@ -1,10 +1,15 @@
-D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\BackEndApplication.java
+D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\authentication\controller\AuthController.java
 D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\controller\AlumnoApiController.java
 D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\repository\entity\Alumno.java
+D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\authentication\models\AuthRequest.java
 D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\service\AlumnoService.java
 D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\service\AlumnoServiceimpl.java
+D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\controller\impl\AlumnoApiControllerImpl.java
+D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\BackEndApplication.java
+D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\utils\JWTUtils.java
+D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\authentication\models\AuthResponse.java
 D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\model\alumno.java
 D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\repository\entity\AlumnoRepository.java
 D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\repository\entity\impl\AlumnoRepositoryimpl.java
-D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\controller\impl\AlumnoApiControllerimpl.java
+D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\authentication\filter\JWTFilter.java
 D:\OneDrive - Universidad Autonoma de Nuevo León\libros facu\6 to sem\back\2\back-end\back-end\src\main\java\com\fcfm\backend\utils\AlumnoMapper.java
