@@ -1,8 +1,12 @@
-com\fcfm\backend\repository\entity\AlumnoRepository.class
+com\fcfm\backend\authentication\models\AuthRequest.class
 com\fcfm\backend\repository\entity\Alumno.class
 com\fcfm\backend\service\AlumnoServiceimpl.class
 com\fcfm\backend\utils\AlumnoMapper.class
 com\fcfm\backend\service\AlumnoService.class
+com\fcfm\backend\utils\JWTUtils.class
+com\fcfm\backend\repository\entity\AlumnoRepository.class
+com\fcfm\backend\authentication\models\AuthResponse.class
 com\fcfm\backend\model\alumno.class
 com\fcfm\backend\BackEndApplication.class
+com\fcfm\backend\authentication\filter\JWTFilter.class
 com\fcfm\backend\repository\entity\impl\AlumnoRepositoryimpl.class
