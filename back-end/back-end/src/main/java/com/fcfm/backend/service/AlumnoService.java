@@ -10,7 +10,11 @@ public interface AlumnoService {
 
     public void createAlumno(alumno alumNu);
 
-    alumno getAlumnobyId(int id);
+    alumno getAlumnobyId(Long id);
 
+
+    public void updateAlumno(alumno alumNu);
+
+    public void deleteAlumno(Long id);
 
 }

@@ -1,12 +1,47 @@
 package com.fcfm.backend.model;
 
+import java.sql.Date;
+
 public class alumno {
-    public String getNombre() {
-        return nombre;
+    private String primerNombre;
+    private String segundoNombre;
+    private String apellidoPat;
+    private String apellidoMat;
+    private Date fechaNac;
+    private String curp;
+    private String email;
+
+
+    public String getPrimerNombre() {
+        return primerNombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setPrimerNombre(String primerNombre) {
+        this.primerNombre = primerNombre;
+    }
+
+    public String getSegundoNombre() {
+        return segundoNombre;
+    }
+
+    public void setSegundoNombre(String segundoNombre) {
+        this.segundoNombre = segundoNombre;
+    }
+
+    public Date getFechaNac() {
+        return fechaNac;
+    }
+
+    public void setFechaNac(Date fechaNac) {
+        this.fechaNac = fechaNac;
+    }
+
+    public String getCurp() {
+        return curp;
+    }
+
+    public void setCurp(String curp) {
+        this.curp = curp;
     }
 
     public String getApellidoPat() {
@@ -25,17 +60,12 @@ public class alumno {
         this.apellidoMat = apellidoMat;
     }
 
-    public Integer getEdad() {
-        return edad;
+
+    public String getEmail() {
+        return email;
     }
 
-    public void setEdad(Integer edad) {
-        this.edad = edad;
+    public void setEmail(String email) {
+        this.email = email;
     }
-
-    private String nombre;
-    private String apellidoPat;
-    private String apellidoMat;
-
-    private Integer edad;
 }
